@@ -21,6 +21,7 @@ name as a seed to combine randomly selected tasks in student-specific variant.
 	- [ ] Add automatic tests using NUnit  
 	
 - [ ] UI	
+	- [ ] Original SVG icon
 	- [ ] Add options window
 	- [ ] Switch through available DB in UI
 	- [ ] Editor mode
@@ -30,8 +31,8 @@ name as a seed to combine randomly selected tasks in student-specific variant.
 	- [ ] Script DB shema
 	- [ ] Script sample DB data
 		- [ ] Add tasks for at least "Real numbers and console IO" section to sample DB
-    - [ ] DB culture, author, author email
-	- [ ] DB security
+    - [ ] DB friendly name, culture, author, author email
+	- [ ] Support DB security?
 	- [ ] Support for multiple DB
 	- [ ] Add culture code field to all culture-dependant parts
 			
@@ -47,8 +48,10 @@ name as a seed to combine randomly selected tasks in student-specific variant.
 	- [ ] Make Debian packaging script
 
 - [ ] Windows version  
+	- [ ] Add Windows-specific app.config
 	- [ ] Implement DocBook XML => HTML transform with XSLT
 	- [ ] Make [NSIS](http://nsis.sourceforge.net/Download)-based installer
+		- [ ] Integrate GTK# 2.12 and System.Data.SQLite installers
 	
 - [ ] Documentation
 	- [ ] Update application help
