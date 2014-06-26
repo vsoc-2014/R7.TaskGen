@@ -1,0 +1,239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2014-01-13 22:35:41+0400\n"
+"PO-Revision-Date: 2014-01-13 22:38:49+0400\n"
+"Last-Translator: Roman M. Yagodin <roman.yagodin@gmail.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: MonoDevelop Gettext addin\n"
+
+#: ../TaskGen/MainForm.cs:7
+msgid "Enter your name, theme and press \"My Variant\" button"
+msgstr "Введите Ваше имя и тему, затем нажмите кнопку \"Мой вариант\""
+
+#: ../TaskGen/MainForm.cs:9
+msgid "-- Not selected --"
+msgstr "-- Не выбрана --"
+
+#: ../TaskGen/MainForm.cs:21
+msgid "Name was entered incorrectly!"
+msgstr "Имя введено неверно!"
+
+#: ../TaskGen/MainForm.cs:21
+msgid ""
+"Name must consists from three parts - lastname (family name), firstname and "
+"othername, separated with spaces."
+msgstr ""
+"Имя должно состоять из трех частей - фамилии, имени и отчества, разделенных "
+"пробелами."
+
+#: ../TaskGen/MainForm.cs:26
+#: ../TaskGen/MainForm.cs:77
+msgid "You must choose a theme!"
+msgstr "Вы должны выбрать тему!"
+
+#: ../TaskGen/MainForm.cs:26
+#: ../TaskGen/MainForm.cs:77
+msgid "You must choose a theme of work to generate variant for it."
+msgstr ""
+"Вы должны выбрать тему работы, для которой нужно получить вариант задания."
+
+#: ../TaskGen/MainForm.cs:29
+msgid "Unexpected error!"
+msgstr "Неожиданная ошибка!"
+
+#: ../TaskGen/MainForm.cs:29
+msgid "Unexpected error occured! Application restart recommended."
+msgstr "Произошла непредвиденная ошибка! Рекомендуем перезапустить приложение."
+
+#: ../TaskGen/MainForm.cs:33
+msgid "No tasks for choosen theme!"
+msgstr "На выбранную тему нет задач!"
+
+#: ../TaskGen/MainForm.cs:33
+msgid "No tasks for choosen theme found in the database"
+msgstr "К сожалению, в базе нет задач на эту тему!"
+
+#: ../TaskGen/MainForm.cs:37
+msgid "{0} tasks choosen"
+msgstr "Выбрано {0} задач"
+
+#: ../TaskGen/MainForm.cs:46
+msgid ""
+"Variant for:\n"
+"{0}\n"
+"{1}"
+msgstr ""
+"Вариант для:\n"
+"{0}\n"
+"{1}"
+
+#: ../TaskGen/MainForm.cs:65
+msgid "Roman M. Yagodin - concept and programming"
+msgstr "Роман М. Ягодин - концепция и программирование"
+
+#: ../TaskGen/MainForm.cs:65
+msgid "IconCubic <iconcubic.deviantart.com> - dices icons clipart"
+msgstr "IconCubic <iconcubic.deviantart.com> - клипарт иконок игральных костей"
+
+#: ../TaskGen/MainForm.cs:68
+msgid ""
+"Author: Roman M. Yagodin <roman.yagodin@gmail.com>\n"
+"\n"
+"Copyright (c) 2010-{0} by Roman M. Yagodin\n"
+"\n"
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation, either version 3 of the License, or (at your option) any later "
+"version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Author: Roman M. Yagodin <roman.yagodin@gmail.com>\n"
+"\n"
+"Copyright (c) 2010-{0} by Roman M. Yagodin\n"
+"\n"
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation, either version 3 of the License, or (at your option) any later "
+"version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program. If not, see <http://www.gnu.org/licenses/>."
+
+#: ../TaskGen/MainForm.cs:69
+msgid ""
+"Task variants generator for use with learning courses, that uses student's "
+"name as a seed to combine randomly selected tasks in student-specific variant"
+msgstr ""
+"Генератор вариантов заданий для использования в учебных курсах, который "
+"использует имя учащегося для формирования случайно выбранных задач в специфичный "
+"для учащегося вариант задания"
+
+#: ../TaskGen/MainForm.cs:71
+msgid "help_en.xml"
+msgstr "help_ru.xml"
+
+#: ../TaskGen/gtk-gui/TaskGen.MainForm.cs:2
+msgid "My Variant"
+msgstr "Мой вариант"
+
+#: ../TaskGen/gtk-gui/TaskGen.MainForm.cs:2
+msgid "Generate variant"
+msgstr "Сгенерировать вариант"
+
+#: ../TaskGen/gtk-gui/TaskGen.MainForm.cs:2
+msgid "Copy"
+msgstr "Копировать"
+
+#: ../TaskGen/gtk-gui/TaskGen.MainForm.cs:2
+msgid "Copy last variant to clipboard"
+msgstr "Копировать последний вариант в буфер обмена"
+
+#: ../TaskGen/gtk-gui/TaskGen.MainForm.cs:2
+msgid "_File"
+msgstr "_Файл"
+
+#: ../TaskGen/gtk-gui/TaskGen.MainForm.cs:2
+msgid "_Quit"
+msgstr "В_ыход"
+
+#: ../TaskGen/gtk-gui/TaskGen.MainForm.cs:2
+msgid "_Help"
+msgstr "_Справка"
+
+#: ../TaskGen/gtk-gui/TaskGen.MainForm.cs:2
+msgid "_About"
+msgstr "_О программе"
+
+#: ../TaskGen/gtk-gui/TaskGen.MainForm.cs:2
+msgid "_Open task books folder..."
+msgstr "_Открыть папку с задачниками..."
+
+#: ../TaskGen/gtk-gui/TaskGen.MainForm.cs:2
+msgid "_Task books"
+msgstr "_Задачники"
+
+#: ../TaskGen/gtk-gui/TaskGen.MainForm.cs:2
+msgid "Full name:"
+msgstr "Полное имя:"
+
+#: ../TaskGen/gtk-gui/TaskGen.MainForm.cs:2
+msgid "Theme:"
+msgstr "Тема:"
+
+#: ../TaskGen/gtk-gui/TaskGen.MainForm.cs:2
+msgid "Open task book then task button is clicked"
+msgstr "Открыть задачник при нажатии кнопки задачи"
+
+#: ../TaskGen/entities/TaskInfo.cs:23
+msgid ""
+"Task book:\n"
+"{0} {1}\n"
+"Task: {2}.{3}{4} {8}\n"
+"Complexity: {7:F1}\n"
+"Page: {5}\n"
+"{6}"
+msgstr ""
+"Задачник:\n"
+"{0} {1}\n"
+"Задача: {2}.{3}{4} {8}\n"
+"Сложность: {7:F1}\n"
+"Страница: {5}\n"
+"{6}"
+
+#: ../TaskGen/entities/TaskInfo.cs:23
+msgid "Task text:"
+msgstr "Текст задачи:"
+
+#: ../TaskGen/entities/TaskInfo.cs:23
+msgid ""
+"Task book:\n"
+"{0} {1}\n"
+"Task: {6} {2}{3}\n"
+"Complexity: {5:F1}\n"
+"Page: {4}"
+msgstr ""
+"Задачник:\n"
+"{0} {1}\n"
+"Задача: {6} {2}{3}\n"
+"Сложность: {5:F1}\n"
+"Страница: {4}"
+
+#: ../TaskGen/entities/TaskInfo.cs:23
+msgid ""
+"Task book:\n"
+"{0} {1}\n"
+"Task: {7} {2}{3}\n"
+"Complexity: {6:F1}\n"
+"Page: {4}\n"
+"{5}"
+msgstr ""
+"Задачник:\n"
+"{0} {1}\n"
+"Задача: {7} {2}{3}\n"
+"Сложность: {6:F1}\n"
+"Страница: {4}\n"
+"{5}"
+
+#~ msgid "Annotation of choosen theme must be here!"
+#~ msgstr "Здесь должно быть краткое описание выбранной темы!"
+
+#~ msgid "Then task button clicked, open task book"
+#~ msgstr "Открывать задачник при выборе задачи"
+

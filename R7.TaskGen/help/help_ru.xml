@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "docbookV4.5/docbookx.dtd"[]>
+<section lang="ru-RU">
+	<title>Краткая инструкция по работе с TaskGen</title>
+	<orderedlist>
+		<title>Получение варианта задания</title>
+		<listitem>
+			<para>Введите в поле <guilabel>Полное имя</guilabel> свою фамилию, имя и отчество, через пробел, 
+   например: <guilabel>"Иванов Иван Иванович"</guilabel>;</para>
+		</listitem>
+		<listitem>
+			<para>Выберите тему лабораторной работы (соответствие может быть не дословным);</para>
+		</listitem>
+		<listitem>
+			<para>Ниже появится описание темы и список задач в виде кнопок, а в окне программы - список задач в виде текста.</para>
+		</listitem>
+		<listitem>
+			<para>Нажмите кнопку задачи - откроется задачник на нужной странице (в отдельных случаях - текст задачи).
+   При этом в окне программы отображается описание задачи.</para>
+		</listitem>
+	</orderedlist>
+	<warning><title>Внимание!</title><para>Комментарии в описании задачи в TaskGen имеют более высокий приоритет, 
+  чем приведенные в самом задачнике!</para></warning>
+<warning><title>Внимание!</title><para>Не все лабораторные работы требуют решения 10 задач - 
+  уточняйте количество задач у преподавателя.</para></warning>
+	<formalpara>
+		<title>
+Обновление базы задач:</title>
+		<para>Новый файл <filename>taskgen.sqlite</filename> скопировать с заменой на место прежнего 
+  в рабочий каталог программы. В виртуальной машине это <filename>/home/student/.config/taskgen/</filename>.
+  Обновления базы см. на сайте <ulink url="http://sites.google.com/site/roman7yagodin">http://sites.google.com/site/roman7yagodin</ulink> в разделе "Программы и компоненты".</para>
+	</formalpara>
+	<itemizedlist>
+		<title>Чего нет (но могло бы быть):</title>
+		<listitem>
+			<para>Просмотр задач непосредственно в TaskGen (требуется перевод задачников 
+  в удобный для машинной обработки вид, предположительно в связке 
+  DocBook XML + SVG + MathML).</para>
+		</listitem>
+		<listitem>
+			<para>Разное количество задач по разным темам, возможность задания количества 
+  задач, которые требуется решить, в формате "N из M". </para>
+		</listitem>
+		<listitem>
+			<para>Встроенный редактор задач.</para>
+		</listitem>
+		<listitem>
+			<para>Ранжирование задач по сложности.</para>
+		</listitem>
+		<listitem>
+			<para>Тематическая привязка по каждой задаче (сейчас - по разделу).</para>
+		</listitem>
+		<listitem>
+			<para>Подсказки к задачам, особенно сложным.</para>
+		</listitem>
+		<listitem>
+			<para>Встроенные справочники по математике и физике.</para>
+		</listitem>
+		<listitem>
+			<para>Типовые задачи с примерами решения.</para>
+		</listitem>
+		<listitem>
+			<para>Начальные шаблоны для сложных задач.</para>
+		</listitem>
+		<listitem>
+			<para>Модули автоматической проверки результатов.</para>
+		</listitem>
+		<listitem>
+			<para>Обновление базы данных задач из Интернет.</para>
+		</listitem>
+		<listitem>
+			<para>Различные схемы генерации вариантов.</para>
+		</listitem>
+		<listitem>
+			<para>База задач олимпиадного уровня.</para>
+		</listitem>
+	</itemizedlist>
+</section>
