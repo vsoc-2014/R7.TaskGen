@@ -133,7 +133,6 @@
     <Compile Include="components\DataProvider.cs" />
     <Compile Include="components\Gtk.StatusMessage.cs" />
     <Compile Include="components\Utils.cs" />
-    <Compile Include="Tasks.cs" />
     <Compile Include="components\TaskSelector.cs" />
     <Compile Include="gtk-gui\R7.TaskGen.MainForm.cs" />
   </ItemGroup>
