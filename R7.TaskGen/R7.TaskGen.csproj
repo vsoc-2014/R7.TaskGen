@@ -74,9 +74,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
-    <None Include="taskgen.sqlite">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <EmbeddedResource Include="gtk-gui\gui.stetic">
       <LogicalName>gui.stetic</LogicalName>
     </EmbeddedResource>
@@ -135,6 +132,9 @@
     <Compile Include="components\Utils.cs" />
     <Compile Include="components\TaskSelector.cs" />
     <Compile Include="gtk-gui\R7.TaskGen.MainForm.cs" />
+    <None Include="App_Data\taskgen.sqlite">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
@@ -149,5 +149,6 @@
     <Folder Include="entities\" />
     <Folder Include="components\" />
     <Folder Include="help\" />
+    <Folder Include="App_Data\" />
   </ItemGroup>
 </Project>
