@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "docbookV4.5/docbookx.dtd"[]>
-<section lang="ru-RU">
+<section lang="en-EN">
 	<title>The short instruction about TaskGen</title>
 	<orderedlist>
 		<title>Generating variants</title>
 		<listitem>
-			<para>Fill in the gap <guilabel>Full name</guilabel> Your surname, name and second name, with space, 
-   for example: <guilabel>"Coleson Ryan David"</guilabel>;</para>
+			<para>Fill in the form field <guilabel>Full name</guilabel> Your surname, name and second name, with space, 
+   for example: <guilabel>"Иванов Иван Иванович"</guilabel>;</para>
 		</listitem>
 		<listitem>
 			<para>Choose the theme of lab (conformity can be not total);</para>
 		</listitem>
 		<listitem>
-			<para>The description of theme will appear lower, the list of exercises as a buttons, and in window of programm - the list of exercises as a text.</para>
+			<para>The description of theme will appear lower, the list of exercises as a buttons, and in window of program - the list of exercises as a text.</para>
 		</listitem>
 		<listitem>
 			<para>Press the exercise-button to open the book of problems at page of that exercise (in some cases - text of exercise).
-   In the window of programm you can see the description of exercise.</para>
+   In the window of program you can see the description of exercise.</para>
 		</listitem>
 	</orderedlist>
 	<warning><title>Warning!</title><para>The comments in the description of exercise in TaskGen have a higher priority than comments in the book of problems!</para></warning>
@@ -25,7 +25,7 @@
 	<formalpara>
 		<title>
 Updates of exercises database:</title>
-		<para>Новый файл <filename>taskgen.sqlite</filename> скопировать с заменой на место прежнего 
+		<para>New file <filename>taskgen.sqlite</filename> you should copy with replacement the old one 
   в рабочий каталог программы. В виртуальной машине это <filename>/home/student/.config/taskgen/</filename>.
   Обновления базы см. на сайте <ulink url="http://sites.google.com/site/roman7yagodin">http://sites.google.com/site/roman7yagodin</ulink> в разделе "Программы и компоненты".</para>
 	</formalpara>
