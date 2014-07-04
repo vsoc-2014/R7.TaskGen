@@ -26,13 +26,13 @@
 		<title>
 Updates of exercises database:</title>
 		<para>New file <filename>taskgen.sqlite</filename> you should copy with replacement the old one 
-  в рабочий каталог программы. В виртуальной машине это <filename>/home/student/.config/taskgen/</filename>.
-  Обновления базы см. на сайте <ulink url="http://sites.google.com/site/roman7yagodin">http://sites.google.com/site/roman7yagodin</ulink> в разделе "Программы и компоненты".</para>
+  in the working directory of program. In a virtual machine this way <filename>/home/student/.config/taskgen/</filename>.
+  You can check updates of database at <ulink url="http://sites.google.com/site/roman7yagodin">http://sites.google.com/site/roman7yagodin</ulink> at section "Программы и компоненты".</para>
 	</formalpara>
 	<itemizedlist>
-		<title>Чего нет (но могло бы быть):</title>
+		<title>What is not implemented (but in plans):</title>
 		<listitem>
-			<para>Просмотр задач непосредственно в TaskGen (требуется перевод задачников 
+			<para>Review of exercises just in TaskGen (требуется перевод задачников 
   в удобный для машинной обработки вид, предположительно в связке 
   DocBook XML + SVG + MathML).</para>
 		</listitem>
@@ -41,7 +41,7 @@ Updates of exercises database:</title>
   задач, которые требуется решить, в формате "N из M". </para>
 		</listitem>
 		<listitem>
-			<para>Встроенный редактор задач.</para>
+			<para>Integrated exercise editor.</para>
 		</listitem>
 		<listitem>
 			<para>Ранжирование задач по сложности.</para>
@@ -50,10 +50,10 @@ Updates of exercises database:</title>
 			<para>Тематическая привязка по каждой задаче (сейчас - по разделу).</para>
 		</listitem>
 		<listitem>
-			<para>Подсказки к задачам, особенно сложным.</para>
+			<para>A special hints for some difficult exercises.</para>
 		</listitem>
 		<listitem>
-			<para>Встроенные справочники по математике и физике.</para>
+			<para>Integrated handbooks of the Physics and the Maths.</para>
 		</listitem>
 		<listitem>
 			<para>Типовые задачи с примерами решения.</para>
