@@ -65,10 +65,10 @@ Updates of exercises database:</title>
 			<para>Модули автоматической проверки результатов.</para>
 		</listitem>
 		<listitem>
-			<para>Обновление базы данных задач из Интернет.</para>
+			<para>Update the database of exercises with internet-connection.</para>
 		</listitem>
 		<listitem>
-			<para>Различные схемы генерации вариантов.</para>
+			<para>Different generation-schemes of the variants.</para>
 		</listitem>
 		<listitem>
 			<para>База задач олимпиадного уровня.</para>
