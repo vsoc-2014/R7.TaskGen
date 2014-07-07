@@ -37,17 +37,16 @@ Updates of exercises database:</title>
   DocBook XML + SVG + MathML).</para>
 		</listitem>
 		<listitem>
-			<para>Разное количество задач по разным темам, возможность задания количества 
-  задач, которые требуется решить, в формате "N из M". </para>
+			<para>Different amount of exercises in all themes, will be possible to set amount of exercises to complete. </para>
 		</listitem>
 		<listitem>
 			<para>Integrated exercise editor.</para>
 		</listitem>
 		<listitem>
-			<para>Ранжирование задач по сложности.</para>
+			<para>Set exercises from less difficult to high difficult.</para>
 		</listitem>
 		<listitem>
-			<para>Тематическая привязка по каждой задаче (сейчас - по разделу).</para>
+			<para>Linking exersices with themes (now - with sections).</para>
 		</listitem>
 		<listitem>
 			<para>A special hints for some difficult exercises.</para>
@@ -56,7 +55,7 @@ Updates of exercises database:</title>
 			<para>Integrated handbooks of the Physics and the Maths.</para>
 		</listitem>
 		<listitem>
-			<para>Типовые задачи с примерами решения.</para>
+			<para>Examples of exersices solution.</para>
 		</listitem>
 		<listitem>
 			<para>Templates for difficult exercises.</para>
