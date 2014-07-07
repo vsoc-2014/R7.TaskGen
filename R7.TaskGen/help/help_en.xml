@@ -19,7 +19,7 @@
    In the window of program you can see the description of exercise.</para>
 		</listitem>
 	</orderedlist>
-	<warning><title>Warning!</title><para>The comments in the description of exercise in TaskGen have a higher priority than comments in the book of problems!</para></warning>
+	<warning><title>Warning!</title><para>The comments at exercise in TaskGen have a higher priority than comments in the book of problems!</para></warning>
 <warning><title>Warning!</title><para>Not at all labs you need to complete all 10 exercises - 
   you should ask about it your teacher.</para></warning>
 	<formalpara>
@@ -59,10 +59,10 @@ Updates of exercises database:</title>
 			<para>Типовые задачи с примерами решения.</para>
 		</listitem>
 		<listitem>
-			<para>Начальные шаблоны для сложных задач.</para>
+			<para>Templates for difficult exercises.</para>
 		</listitem>
 		<listitem>
-			<para>Модули автоматической проверки результатов.</para>
+			<para>Modules which will automatically check results.</para>
 		</listitem>
 		<listitem>
 			<para>Update the database of exercises with internet-connection.</para>
@@ -71,7 +71,7 @@ Updates of exercises database:</title>
 			<para>Different generation-schemes of the variants.</para>
 		</listitem>
 		<listitem>
-			<para>База задач олимпиадного уровня.</para>
+			<para>Base of exercises which have academic-competition level of complexity.</para>
 		</listitem>
 	</itemizedlist>
 </section>
