@@ -135,6 +135,10 @@
     <None Include="App_Data\taskgen.sqlite">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="install.sh" />
+    <None Include="run.sh" />
+    <None Include="run-local.sh" />
+    <None Include="uninstall.sh" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
