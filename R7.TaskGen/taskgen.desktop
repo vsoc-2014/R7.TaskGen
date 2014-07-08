@@ -2,14 +2,15 @@
 [Desktop Entry]
 Encoding=UTF-8
 Type=Application
-Name=Task generator TaskGen
+Name=r7.taskgen
 Name[ru_RU]=Генератор заданий TaskGen
 GenericName=Task generator
 GenericName[ru_RU]=Генератора заданий
 Path=/home/student/opt/TaskGen/
-Icon=taskgen.png
-Exec=mono TaskGen.exe
+Icon=
 Comment=Task generator TaskGen
 Comment[ru_RU]=Генератор заданий TaskGen
 Categories=Development;Education;
 StartupNotify=true
+Exec=r7.taskgen
+Terminal=false
