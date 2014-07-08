@@ -22,4 +22,4 @@ rm -f "${PREFIX}/bin/${PROJECTNAME_LC}"
 
 rm -f -r "${PREFIX}/lib/${PROJECTNAME_LC}"
 
-echo "Uninstall of ${PROJECTNAME} complete."
+echo "Uninstall of ${PROJECTNAME} complete."           

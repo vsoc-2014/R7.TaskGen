@@ -96,10 +96,6 @@
     <None Include="icons\taskgen_72x72.png">
       <DeployService-UseProjectRelativePath>True</DeployService-UseProjectRelativePath>
     </None>
-    <None Include="taskgen.desktop">
-      <DeployService-TargetDirectoryId>Linux.DesktopApplications</DeployService-TargetDirectoryId>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="app.config" />
     <Compile Include="entities\ProblemBookSectionInfo.cs" />
     <Compile Include="entities\ThemeSectionPairInfo.cs" />
@@ -135,10 +131,22 @@
     <None Include="App_Data\taskgen.sqlite">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="install.sh" />
-    <None Include="run.sh" />
-    <None Include="run-local.sh" />
-    <None Include="uninstall.sh" />
+    <None Include="install.sh">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="run.sh">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="run-local.sh">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="uninstall.sh">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="r7.taskgen.desktop">
+      <DeployService-TargetDirectoryId>Linux.DesktopApplications</DeployService-TargetDirectoryId>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
