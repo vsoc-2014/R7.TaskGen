@@ -32,8 +32,8 @@ Updates of exercises database:</title>
 	<itemizedlist>
 		<title>What is not implemented (but in plans):</title>
 		<listitem>
-			<para>Review of exercises just in TaskGen (needs to перевод задачников 
-  в удобный для машинной обработки вид, предположительно в связке 
+			<para>Review of exercises just in TaskGen (needs to change a format of books of problems, 
+  for example to .xml, by using the 
   DocBook XML + SVG + MathML).</para>
 		</listitem>
 		<listitem>
