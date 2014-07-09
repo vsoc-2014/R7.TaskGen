@@ -1,4 +1,4 @@
-                                          #!/bin/bash
+#!/bin/bash
 
 # Usage:
 
@@ -20,9 +20,15 @@ mkdir -p "${PREFIX}/lib/${PROJECTNAME_LC}"
 
 mkdir -p "${PREFIX}/share/applications"
 
+mkdir -p "${HOME}/.config/${PROJECTNAME_LC}"
+
+cp -r -f "./App_Data/taskgen.sqlite" "${HOME}/.config/${PROJECTNAME_LC}"
+
 # install project to application directory
 
 cp -r -f "." "${PREFIX}/lib/${PROJECTNAME_LC}"
+
+cp -r -f "./R7.TaskGen.exe.config" "${HOME}/.config/${PROJECTNAME_LC}/user.config"
 
 # make symlink to start script in prefix/bin
 
