@@ -20,6 +20,8 @@ mkdir -p "${PREFIX}/lib/${PROJECTNAME_LC}"
 
 mkdir -p "${PREFIX}/share/applications"
 
+mkdir -p "${HOME}/.config/${PROJECTNAME_LC}"
+
 # install project to application directory
 
 cp -r -f "." "${PREFIX}/lib/${PROJECTNAME_LC}"
