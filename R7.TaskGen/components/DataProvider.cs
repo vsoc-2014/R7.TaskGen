@@ -30,7 +30,7 @@ namespace R7.TaskGen
 		{
 			get
 			{
-				return string.Format ("URI=file:{0}/taskgen/taskgen.sqlite",
+				return string.Format ("URI=file:{0}/r7.taskgen/taskgen.sqlite",
 					Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
 			}
 		}

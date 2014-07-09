@@ -44,7 +44,7 @@ namespace R7.TaskGen
 			configSource = new DotNetConfigSource(userConfigFile);
 			appSettings = configSource.Configs ["appSettings"];
 		}
-
+		                
 		/// <summary>
 		/// Saves changes to user.config
 		/// </summary>
@@ -56,7 +56,7 @@ namespace R7.TaskGen
 		public static string ApplicationData
 		{
 			get { return Path.Combine (
-					Environment.GetFolderPath (Environment.SpecialFolder.ApplicationData), "taskgen"); 
+					Environment.GetFolderPath (Environment.SpecialFolder.ApplicationData), "r7.taskgen"); 
 			}
 		}
 
