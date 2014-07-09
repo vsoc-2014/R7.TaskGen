@@ -61,7 +61,7 @@ namespace R7.TaskGen
 			this.aboutAction = new global::Gtk.Action ("aboutAction", global::Mono.Unix.Catalog.GetString ("_About"), null, "gtk-about");
 			this.aboutAction.ShortLabel = global::Mono.Unix.Catalog.GetString ("_About");
 			w1.Add (this.aboutAction, null);
-			this.helpAction = new global::Gtk.Action ("helpAction", global::Mono.Unix.Catalog.GetString ("_Help (in russian)"), null, "gtk-help");
+			this.helpAction = new global::Gtk.Action ("helpAction", global::Mono.Unix.Catalog.GetString ("_Help"), null, "gtk-help");
 			this.helpAction.IsImportant = true;
 			this.helpAction.ShortLabel = global::Mono.Unix.Catalog.GetString ("_Help");
 			w1.Add (this.helpAction, "F1");
