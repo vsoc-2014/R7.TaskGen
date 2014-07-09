@@ -5,7 +5,7 @@
     <target-gtk-version>2.12</target-gtk-version>
   </configuration>
   <import>
-    <widget-library name="../bin/Release/R7.TaskGen.exe" internal="true" />
+    <widget-library name="../bin/Debug/R7.TaskGen.exe" internal="true" />
   </import>
   <widget class="Gtk.Window" id="R7.TaskGen.MainForm" design-size="721 322">
     <action-group name="Default">
@@ -57,7 +57,7 @@
         <property name="Type">Action</property>
         <property name="Accelerator">F1</property>
         <property name="IsImportant">True</property>
-        <property name="Label" translatable="yes">_Help (in russian)</property>
+        <property name="Label" translatable="yes">_Help</property>
         <property name="ShortLabel" translatable="yes">_Help</property>
         <property name="StockId">gtk-help</property>
         <signal name="Activated" handler="OnActionHelpActivated" />
