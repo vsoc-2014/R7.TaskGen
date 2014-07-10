@@ -21,7 +21,7 @@
 
 using System;
 using PetaPoco;
-
+using System.IO;
 namespace R7.TaskGen
 {
 	public class DataProvider
@@ -34,7 +34,15 @@ namespace R7.TaskGen
 					Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
 			}
 		}
-		
+
+		static DataProvider()
+		{
+			String dir = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+			if (!Directory.Exists(dir)) 
+			{
+				Directory.CreateDirectory(dir);
+			}
+		}
 		private static Database db = null;
 		internal static Database Database
 		{
