@@ -21,6 +21,7 @@
 
 using System;
 using PetaPoco;
+using System.IO;
 
 namespace R7.TaskGen
 {
@@ -34,11 +35,21 @@ namespace R7.TaskGen
 					Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData));
 			}
 		}
+		static DataProvider()
+		{
+			String dir = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+			if (!Directory.Exists(dir))
+			{
+				Directory.CreateDirectory(dir);
+				File.Copy ("/usr/local/lib/r7.taskgen/App_Data/taskgen.sqlite", dir+"/taskgen.sqlite");
+			}
+		}
+
 		
 		private static Database db = null;
 		internal static Database Database
 		{
-			get
+			get 
 			{
 				// return db ?? (db = new Database (ConnectionString, "SQLite"));
 				return db ?? (db = new Database (ConnectionString, Mono.Data.Sqlite.SqliteFactory.Instance));
