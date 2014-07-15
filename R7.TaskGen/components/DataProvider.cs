@@ -41,24 +41,25 @@ namespace R7.TaskGen
 			if (!Directory.Exists(dir))
 			{
 				Directory.CreateDirectory(dir);
-				File.Copy ("/usr/local/lib/r7.taskgen/App_Data/taskgen.sqlite", dir+"/taskgen.sqlite");
+				File.Copy ("/usr/local/lib/r7.taskgen/App_Data/taskgen.sqlite", dir);
+				File.Copy ("/usr/local/lib/r7.taskgen/books", dir);
 			}
 		}
 
-		
+
 		private static Database db = null;
 		internal static Database Database
 		{
-			get 
+			get
 			{
 				// return db ?? (db = new Database (ConnectionString, "SQLite"));
 				return db ?? (db = new Database (ConnectionString, Mono.Data.Sqlite.SqliteFactory.Instance));
 				// with this, we can remove system.data section from app.config,
 				// but is is platform-dependable
-				
+
 			}
 		}
-		
+
 	} // class
 } // namespace
 

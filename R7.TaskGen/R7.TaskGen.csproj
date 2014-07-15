@@ -144,6 +144,14 @@
     <None Include="r7.taskgen.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Books\reference\highmath.djvu" />
+    <None Include="Books\reference\informatics.pdf" />
+    <None Include="Books\reference\physics.djvu" />
+    <None Include="Books\abramyan_me.pdf" />
+    <None Include="Books\abramyan_me_linq.pdf" />
+    <None Include="Books\chulyukov_va.pdf" />
+    <None Include="Books\yurkin_ag.djvu" />
+    <None Include="Books\zlatopolsky_dm.djvu" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
@@ -159,5 +167,7 @@
     <Folder Include="components\" />
     <Folder Include="help\" />
     <Folder Include="App_Data\" />
+    <Folder Include="Books\" />
+    <Folder Include="Books\reference\" />
   </ItemGroup>
 </Project>

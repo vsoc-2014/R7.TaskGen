@@ -22,7 +22,11 @@ sudo mkdir -p "${PREFIX}/share/applications"
 
 mkdir -p "${HOME}/.config/${PROJECTNAME_LC}"
 
+mkdir -p "${HOME}/.config/${PROJECTNAME_LC}/books"
+
 cp -r -f "./App_Data/taskgen.sqlite" "${HOME}/.config/${PROJECTNAME_LC}"
+
+cp -r -f "./books" "${HOME}/.config/${PROJECTNAME_LC}"
 
 # install project to application directory
 
