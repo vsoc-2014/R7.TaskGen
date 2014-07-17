@@ -51,6 +51,8 @@ namespace R7.TaskGen
 			if (!Directory.Exists (dir1))
 			{
 				Directory.CreateDirectory (dir1);
+				
+				File.Copy ("/usr/local/lib/r7.taskgen/App_Data/taskgen.sqlite", dir);
 				File.Copy ("/usr/local/lib/r7.taskgen/books/abramyan_me_linq.pdf", dir1);
 				File.Copy ("/usr/local/lib/r7.taskgen/books/informatics.pdf", dir1);
 				File.Copy ("/usr/local/lib/r7.taskgen/books/yurkin_ag.djvu", dir1);
