@@ -36,11 +36,21 @@ namespace R7.TaskGen
 		}
 
 		static DataProvider()
-		{
-			String dir = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-			if (!Directory.Exists(dir)) 
+		{String dir = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+			dir =dir +"/r7.taskgen";
+			String dir1 = dir+"/books";
+		
+			if (!Directory.Exists(dir))
 			{
 				Directory.CreateDirectory(dir);
+
+				File.Copy ("/usr/local/lib/r7.taskgen/App_Data/taskgen.sqlite", dir);
+				File.Copy ("/usr/local/lib/r7.taskgen/books/chulyukov_va.pdf", dir1);
+				File.Copy ("/usr/local/lib/r7.taskgen/books/abramyan_me_linq.pdf", dir1);
+				File.Copy ("/usr/local/lib/r7.taskgen/books/informatics.pdf", dir1);
+				File.Copy ("/usr/local/lib/r7.taskgen/books/yurkin_ag.djvu", dir1);
+				File.Copy ("/usr/local/lib/r7.taskgen/books/abramyan_me.pdf", dir1);
+				File.Copy ("/usr/local/lib/r7.taskgen/books/zlatopolsky_dm.djvu", dir1);
 			}
 		}
 		private static Database db = null;
