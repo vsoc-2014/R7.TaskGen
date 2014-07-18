@@ -41,9 +41,12 @@ namespace R7.TaskGen
 			if (!File.Exists (userConfigFile))
 				File.Copy (DotNetConfigSource.GetFullConfigPath (), userConfigFile);
 
+
 			configSource = new DotNetConfigSource(userConfigFile);
 			appSettings = configSource.Configs ["appSettings"];
 		}
+
+
 		                
 		/// <summary>
 		/// Saves changes to user.config
